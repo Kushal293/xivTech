@@ -6,7 +6,7 @@ const SingleService = ({topic, title, bgImage, discription, info, details, capab
           <div className='pb-5 max-w-screen overflow-hidden'>
               <h3 className='px-7 pt-5 text-gray-500'>{ topic }</h3>
           </div>
-          <div className={ `bg-${bgImage} bg-cover min-h-[485px] w-screen md:w-full relative bg-center bg-fixed z-40` }>
+          <div className={ `bg-city bg-cover min-h-[485px] w-screen md:w-full relative bg-center bg-fixed z-40` }>
               <div className='absolute left-1/2 -translate-x-1/2 md:-translate-x-1/2 top-16 text-white text-center w-11/12 md:w-10/12'>
                   <h1 className='text-3xl md:text-[3.50rem] font-thin mb-5 leading-tight'>{ title}</h1>
                   <h4>{ discription }</h4>
